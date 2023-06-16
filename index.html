@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Chorme - Dino</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./fontsGame.css">
+    <link rel="stylesheet" href="./app.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- View Components -->
+    <div class="viewAppStart">
+        <button type="button" class="btnStart">
+            Clique espaço para iniciar!
+        </button>
+    </div>
+    <section class="appGame">
+        <header class="headerGame">
+            <h1 class="infoDecoration">HI</h1>
+            <h1 class="maxRecord">00000</h1>
+            <h1 class="point">00000</h1>
+        </header>
+        <main class="viewGame">
+            <img class="playerElement" id="player" src="./gameComponents/player.png" alt="">
+            <div class="viewGame-cactos">
+                <img class="cactoElement-game-large" src="./gameComponents/cacto-element.png" alt="Cacto">
+                <img class="cactoElement-game-min" src="./gameComponents/cacto-element.png" alt="Cacto">
+            </div>
+            <!-- Footer -->
+            <hr class="viewBase-game">
+        </main>
+    </section>
+    <script src="./game.js"></script>
+</body>
+</html>
